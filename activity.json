@@ -1,0 +1,24 @@
+{
+  "name": "firstact",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/Sourabh19/firstact",
+  "description": "New activity",
+  "author": "Sourabh sample activity>",
+  "inputs":[
+    {
+      "name": "salutation",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
