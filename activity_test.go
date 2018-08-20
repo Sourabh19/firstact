@@ -48,8 +48,8 @@ func TestEval(t *testing.T) {
 	tc := test.NewTestActivityContext(getActivityMetadata())
 
 	//setup attrs
-	tc.SetInput("name", "Leon")
-	tc.SetInput("salutation", "Hello")
+	tc.SetInput("value", "Leon")
+	tc.SetInput("sal", "Hello")
 	act.Eval(tc)
 
 	//check result attr
