@@ -7,11 +7,11 @@
   "author": "Sourabh sample activity>",
   "inputs":[
     {
-      "name": "salutation",
+      "name": "sal",
       "type": "string"
     },
     {
-      "name": "name",
+      "name": "value",
       "type": "string"
     }
   ],
